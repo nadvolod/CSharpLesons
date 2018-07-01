@@ -1,0 +1,7 @@
+Value1, Value2, ExpectedMinValue, Message
+1,10, 1, 1 is less than 10.
+192, 134, 134, 134 is less than 192.
+101, 99, 99, 99 is less than 101.
+77, 108, 77, 77 is less than 108.
+45, 37, 37, 37 is less than 34.
+12, 18, 12, 12 is less than 18.
