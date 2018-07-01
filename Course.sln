@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Different types of VS projects", "2 Different types of VS projects", "{7310A31D-DD1D-40CD-A199-88241A6B7D2B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Different types of VS projects", "02 Different types of VS projects", "{7310A31D-DD1D-40CD-A199-88241A6B7D2B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Getting started", "1 Getting started", "{B45767A2-99A9-4EFC-9E89-436C501DE3B8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Getting started", "01 Getting started", "{B45767A2-99A9-4EFC-9E89-436C501DE3B8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Programming basics", "3 Programming basics", "{2B1C921C-ABB9-4555-80B1-5DEF589E26FA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Programming basics", "03 Programming basics", "{2B1C921C-ABB9-4555-80B1-5DEF589E26FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Unit testing project", "4 Unit testing project", "{82EFA7B0-C708-4E76-972B-501C3AD61152}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Unit testing project", "04 Unit testing project", "{82EFA7B0-C708-4E76-972B-501C3AD61152}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 5", "Section 5", "{790BCFE8-3E17-4758-91BB-91E6E632EB47}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Math,equality,relational", "05 Math,equality,relational", "{790BCFE8-3E17-4758-91BB-91E6E632EB47}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 7", "Section 7", "{76018E16-2E7F-4AE7-8C87-FE0A9B308741}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Midterm exam", "07 Midterm exam", "{76018E16-2E7F-4AE7-8C87-FE0A9B308741}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section1", "Section1\HelloWorld\Section1.csproj", "{1D0FBAC4-0848-47AA-87F7-E6755E6F2751}"
 EndProject
@@ -29,43 +29,43 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section5", "Section5\Sectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section7", "Section7\Section7.csproj", "{47BF2F3B-E8B4-4B2D-99BD-0F1D5502524B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 8", "Section 8", "{CED4F92B-47D0-433B-9F03-6ED51BE50C59}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Repetition", "08 Repetition", "{CED4F92B-47D0-433B-9F03-6ED51BE50C59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section8", "Section8\Section8.csproj", "{CE6CC9FA-267F-4261-896D-3BD5DFF18802}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExample", "Section8\LoopExample\LoopExample.csproj", "{02500456-67DA-4B9B-BC1F-6A0CBD1A879C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 6", "Section 6", "{4AC89EAD-0C80-4680-8492-9AFDB16AB772}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Classes and methods", "06 Classes and methods", "{4AC89EAD-0C80-4680-8492-9AFDB16AB772}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section6", "Section6\Section6.csproj", "{E58149BD-E904-4D76-B29A-D66E485D9C5D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 9", "Section 9", "{C50A8EE1-9F20-47F0-B10A-8EBC3081B5AA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Methods", "09 Methods", "{C50A8EE1-9F20-47F0-B10A-8EBC3081B5AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section9", "Section9\Section9.csproj", "{67998050-2533-4AAA-A925-D2DF3D8165D4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 10", "Section 10", "{C0B6CA26-DB3F-497B-B30F-2B769E3E6721}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Arrays and lists", "10 Arrays and lists", "{C0B6CA26-DB3F-497B-B30F-2B769E3E6721}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section10", "Section10\Section10.csproj", "{87823504-9100-4EF9-AEE8-AA3EDB61359F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuiz", "CodingQuiz\CodingQuiz.csproj", "{69A2E88C-E445-4DDE-AE9C-240120B1A09D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 11", "Section 11", "{A8EFA429-D920-420E-8804-919622DB6E3C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 Advanced OO topics", "11 Advanced OO topics", "{A8EFA429-D920-420E-8804-919622DB6E3C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 12", "Section 12", "{8934C199-CC2F-4B68-B286-9E2F013F5AE7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 Interfaces", "12 Interfaces", "{8934C199-CC2F-4B68-B286-9E2F013F5AE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11", "Section11\Section11.csproj", "{7B8A31E8-60A1-4DDF-98A4-003560F5F011}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section12", "Section 12\Section12.csproj", "{16EDB83F-E330-4270-8FC2-53893F863D76}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 13", "Section 13", "{C3F1C396-5934-4A37-A9D4-AAE3E0D8DDCF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 Exception handling", "13 Exception handling", "{C3F1C396-5934-4A37-A9D4-AAE3E0D8DDCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section13", "Section13\Section13.csproj", "{0B9FF41E-E77E-47D0-AE01-443E1E8BEE8E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 15", "Section 15", "{3B893E94-04FD-4C45-8578-DA8A23EDDCE3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15 Conclusion", "15 Conclusion", "{3B893E94-04FD-4C45-8578-DA8A23EDDCE3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section15", "Section15\Section15.csproj", "{311AE4AB-B86A-467B-A4CF-A8F8949EC7DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 14", "Section 14", "{33E28CE3-8A8A-4FD0-9ED7-191B78E2712A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14 Advanced topics", "14 Advanced topics", "{33E28CE3-8A8A-4FD0-9ED7-191B78E2712A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "section14", "section14\section14.csproj", "{B55D262B-CED0-49CB-812F-4A8248412F25}"
 EndProject
