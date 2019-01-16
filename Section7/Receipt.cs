@@ -1,6 +1,6 @@
 ﻿namespace Section7
 {
-    class Receipt
+    public class Receipt
     {
 
         //private variables
