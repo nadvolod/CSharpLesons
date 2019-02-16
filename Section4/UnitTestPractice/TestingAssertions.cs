@@ -61,5 +61,20 @@ namespace UnitTestPractice
             string[] b = {"a"};
             Assert.AreEqual(a[0], b[0]);
         }
+        [TestMethod]
+        public void StringAssertTest()
+        {
+            string a = "ab";
+            string b = "a";
+            StringAssert.Contains(a, b);
+        }
+        [TestMethod]
+        [ExpectedException(typeof(AssertFailedException))]
+        public void StringAssertTest2()
+        {
+            string a = "ab";
+            string b = "c";
+            StringAssert.Contains(a, b);
+        }
     }
 }
