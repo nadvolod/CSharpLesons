@@ -54,6 +54,7 @@
     <Compile Include="SectionExam.cs" />
     <Compile Include="TestExample1.cs" />
     <Compile Include="DataTesting.cs" />
+    <Compile Include="TestingAssertions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\data.csv">
