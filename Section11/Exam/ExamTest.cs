@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Section11
+namespace Exam
 {
     [TestClass]
     public class ExamTest

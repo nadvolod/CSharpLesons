@@ -47,9 +47,6 @@ namespace Section8
             {
 
             }
-
-
-
         }
     }
 }

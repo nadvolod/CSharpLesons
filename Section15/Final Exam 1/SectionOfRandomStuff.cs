@@ -1,7 +1,6 @@
 ﻿using System;
 
-
-namespace section15
+namespace Section14.Final_Exam_1
 {
     public class SectionOfRandomStuff
     {

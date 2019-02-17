@@ -1,10 +1,10 @@
 ﻿using System;
 
-delegate void Procedure();
-public delegate int PerformCalculation(int x, int y);
-
 namespace section14
 {
+    delegate void Procedure();
+    public delegate int PerformCalculation(int x, int y);
+
     class DelegateDemo
     {
         public static void Method1()

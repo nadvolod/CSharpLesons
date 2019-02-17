@@ -1,4 +1,4 @@
-﻿namespace HelloWorld
+﻿namespace Section1
 {
     class Program
     {
