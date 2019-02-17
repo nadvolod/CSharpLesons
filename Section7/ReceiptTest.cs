@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Section7
+namespace UnitTestProject1
 {
     [TestClass]
     public class ReceiptTest

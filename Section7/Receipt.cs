@@ -1,4 +1,4 @@
-﻿namespace Section7
+﻿namespace UnitTestProject1
 {
     public class Receipt
     {

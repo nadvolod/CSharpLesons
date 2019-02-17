@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Section11
+namespace Exam
 {
     class AutoLoan :Loan
     {

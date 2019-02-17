@@ -1,4 +1,4 @@
-﻿namespace Section12
+﻿namespace Section12.Exam
 {
     internal interface IPageObject
     {

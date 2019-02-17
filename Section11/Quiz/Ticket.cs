@@ -1,4 +1,4 @@
-﻿namespace Section11
+﻿namespace Quiz
 {
     abstract class Ticket
     {

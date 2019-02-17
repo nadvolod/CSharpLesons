@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace section15
+namespace Section14.Final_Exam_1
 {
     [TestClass]
     [TestCategory("FinalExam")]

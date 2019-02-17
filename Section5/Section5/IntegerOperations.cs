@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Section6
+namespace Section5
 {
     [TestClass]
     public class IntegerOperations

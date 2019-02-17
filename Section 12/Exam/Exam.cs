@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Section12
+namespace Section12.Exam
 {
     [TestClass]
     [TestCategory("InterfaceExam")]
