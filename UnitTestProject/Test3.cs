@@ -9,11 +9,12 @@ namespace UnitTestProject
     public class Test3
     {
         private int a;
-        public TestContext Test3Context { get; set; }
+        public TestContext TestContext { get; set; }
         private static TestContext _testContext;
         [TestInitialize]
         public void RunBeforeEveryTest()
         {
+            //this.TestContext = TestContext;
             a = 1;
         }
         [TestCleanup]
@@ -37,12 +38,12 @@ namespace UnitTestProject
         {
             var b = 2;
             Assert.AreEqual(3, a + b);    
-            Trace.Write(_testContext.CurrentTestOutcome);           
+            Trace.Write(TestContext.CurrentTestOutcome);           
         }
         [TestMethod]
         public void TestMethod2()
         {
-            Trace.Write(_testContext.TestName);
+            Trace.Write(TestContext.TestName);
             Assert.IsTrue(a == 1);
         }
         [TestMethod]
