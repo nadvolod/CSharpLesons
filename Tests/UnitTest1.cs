@@ -33,39 +33,42 @@ namespace Tests
         public void TestMethod3()
         {
             var list = new List<int> {1, 5, 1, 2, 3, 4, 5};
-            string result = ReverseList(list);
+            var result = ReverseList(list);
             Assert.AreEqual("5 4 3 2 1", result);
         }
 
         //DON'T LOOK BELOW, IT'S THE ANSWERS!!
-        //private string ReverseList(List<int> list)
-        //{
-        //    var uniqueList = new List<int>();
-        //    list.Sort();
-        //    foreach (var item in list)
-        //    {
-        //        if(!uniqueList.Contains(item))
-        //            uniqueList.Add(item);
-        //    }
-        //    uniqueList.Reverse();
-        //    var finalString = "";
-        //    foreach (var item in uniqueList)
-        //    {
-        //        finalString += item + " ";
-        //    }
 
-        //    finalString = finalString.TrimEnd();
-        //    return finalString;
-        //}
 
-        //private int SimpleArraySum(int[] ar)
-        //{
-        //    int result = 0;
-        //    foreach (var item in ar)
-        //    {
-        //        result += item;
-        //    }
-        //    return result;
-        //}
+
+        private string ReverseList(List<int> list)
+        {
+            var uniqueList = new List<int>();
+            list.Sort();
+            foreach (var item in list)
+            {
+                if (!uniqueList.Contains(item))
+                    uniqueList.Add(item);
+            }
+            uniqueList.Reverse();
+            var finalString = "";
+            foreach (var item in uniqueList)
+            {
+                finalString += item + " ";
+            }
+
+            finalString = finalString.TrimEnd();
+            return finalString;
+        }
+
+        private int SimpleArraySum(int[] ar)
+        {
+            int result = 0;
+            foreach (var item in ar)
+            {
+                result += item;
+            }
+            return result;
+        }
     }
 }
