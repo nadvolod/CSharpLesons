@@ -19,9 +19,9 @@ namespace Exam
         [TestMethod]
         public void Test_Home_Loan_Calc()
         {
-            HomeLoan house = new HomeLoan("0001", "Sara", "Baker", .35, 210000, 30, 2010, 3000, "123 New Street");
+            HomeLoan house = new HomeLoan("0001", "Sara", "Baker", .035, 210000, 30, 2010, 3000, "123 New Street");
             decimal interest = house.CalculateInterest();
-            Assert.AreEqual(30100, interest);
+            Assert.AreEqual(3010, interest);
             Console.WriteLine(house);
         }
     }

@@ -59,8 +59,11 @@ namespace Exam
 
         public override decimal CalculateInterest()
         {
-           return (Convert.ToDecimal(InterestRate) / (Convert.ToDecimal(TermYears) / 12M) * 
-                (LoanAmount + 5000));
+            var interestRate = Convert.ToDecimal(InterestRate);
+            var numberOfPaymentsInMonths = Convert.ToDecimal(TermYears / 12);
+            int adminFee = 5000;
+            var loanPrinciple = (LoanAmount + adminFee);
+            return interestRate / numberOfPaymentsInMonths * loanPrinciple;
         }
 
         public override string ToString()

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Different types of VS projects", "02 Different types of VS projects", "{7310A31D-DD1D-40CD-A199-88241A6B7D2B}"
 EndProject
@@ -43,11 +43,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section10", "Section10\Sect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuiz", "CodingQuiz\CodingQuiz.csproj", "{69A2E88C-E445-4DDE-AE9C-240120B1A09D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 Advanced OO topics", "11 Advanced OO topics", "{A8EFA429-D920-420E-8804-919622DB6E3C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advanced OO topics", "Advanced OO topics", "{A8EFA429-D920-420E-8804-919622DB6E3C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 Interfaces", "12 Interfaces", "{8934C199-CC2F-4B68-B286-9E2F013F5AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section11", "Section11\Section11.csproj", "{7B8A31E8-60A1-4DDF-98A4-003560F5F011}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedOO", "Section11\AdvancedOO.csproj", "{7B8A31E8-60A1-4DDF-98A4-003560F5F011}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section12", "Section 12\Section12.csproj", "{16EDB83F-E330-4270-8FC2-53893F863D76}"
 EndProject
