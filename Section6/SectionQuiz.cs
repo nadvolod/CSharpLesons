@@ -10,7 +10,7 @@ namespace Section6
         {
             TestEmployee myEmployee = new TestEmployee("Sara", "Benett");
             string fullname = myEmployee.ReturnFullName();
-            StringAssert.Equals(fullname, "Sara Benett");
+            Assert.AreEqual(fullname, "Sara Benett");
         }
         
         [TestMethod]
@@ -18,7 +18,7 @@ namespace Section6
         {
             TestEmployee myEmployee = new TestEmployee("Sara", "Benett");
             string fullname = myEmployee.ReturnFullNameForSortingPurposes();
-            StringAssert.Equals(fullname, "Benett, Sara");
+            Assert.AreEqual(fullname, "Benett, Sara");
         }
     }
 

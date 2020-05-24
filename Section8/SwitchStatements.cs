@@ -33,7 +33,7 @@ namespace Section8
                     break;
             }
 
-            StringAssert.Equals(testDay, "Thursday");
+            Assert.AreEqual(testDay, "Thursday");
 
         }
 
@@ -68,7 +68,7 @@ namespace Section8
                     break;
             }
 
-            StringAssert.Equals(stateName, "Georgia");
+            Assert.AreEqual(stateName, "Georgia");
         }
     }
 }

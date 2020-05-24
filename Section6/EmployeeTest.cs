@@ -14,7 +14,7 @@ namespace Section6
             employee1.JobTitle = "Manager";
 
             string jobLocation = employee1.JobLocation();
-            StringAssert.Equals(jobLocation, "Boston");
+            Assert.AreEqual(jobLocation, "Boston");
         }
 
         [TestMethod]

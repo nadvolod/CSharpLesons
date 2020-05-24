@@ -12,7 +12,7 @@ namespace Section14.Final_Exam_1
         {
             ComplicatedPage compPage = new ComplicatedPage();
             string pageName = compPage.PageName;
-            StringAssert.Equals(pageName, "Complicated Page");
+            Assert.AreEqual(pageName, "Complicated Page");
         }
 
         [TestMethod]
