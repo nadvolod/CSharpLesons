@@ -11,7 +11,7 @@ namespace Section5
         {
             //call the IsLeapYear method to test
             string result = IsLeapYear(2018);
-            StringAssert.Equals(result, "No");
+            Assert.AreEqual(result, "No");
 
         }
 
@@ -20,7 +20,7 @@ namespace Section5
         {
             //call the IsLeapYear method to test
             string result = IsLeapYear(2020);
-            StringAssert.Equals(result, "Yes");
+            Assert.AreEqual(result, "Yes");
 
         }
 

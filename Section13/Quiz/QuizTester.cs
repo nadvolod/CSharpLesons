@@ -46,7 +46,7 @@ namespace Section13.Quiz
             string result = bmi.ToString();
 
             //create Assertion
-            StringAssert.Equals("BMI: 5.09", result);
+            Assert.AreEqual("BMI: 5.09", result);
         }
     }
 }

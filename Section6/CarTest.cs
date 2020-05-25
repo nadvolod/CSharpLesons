@@ -14,7 +14,7 @@ namespace Section6
             //act
 
             //assert
-            StringAssert.Equals(myCar.Color, "Red");
+            Assert.AreEqual(myCar.Color, "Red");
         }
 
         [TestMethod]
